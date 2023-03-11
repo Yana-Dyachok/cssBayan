@@ -25,7 +25,7 @@ body {
 }
 
 .mems-container {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow:  0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     background-color: #86f6f6;
     transition: all 0.3s ease;
 }
@@ -104,7 +104,7 @@ body {
     .main-container {
         min-height: 70%;
         min-width: 70%;
-        transform: translate(-2px, 1px);
+        transform: translate(-2rem, 1rem);
     }
 }
 
