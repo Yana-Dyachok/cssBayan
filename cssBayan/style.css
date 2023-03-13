@@ -33,6 +33,7 @@ body {
 .label-mems {
     display: flex;
     justify-content: space-between;
+    margin-top: -3%;
     padding: 1% 2%;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -79,7 +80,6 @@ body {
 
 /* Accordion */
 .title-input {
-    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
