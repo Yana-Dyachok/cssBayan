@@ -52,6 +52,7 @@ body {
     display: block;
     margin: 0 auto;
     transition: all 0.5s ease;
+    transition-property:transform;
 }
 
 .check-mark-btn {
@@ -64,6 +65,16 @@ body {
 .mems-item:focus .label-mems {
     color: black;
     background-color: #62f0f0;
+}
+
+.hidden-block:hover,
+.hidden-block:focus  {
+    background-color: #f5eef4;
+}
+
+.img-mems:hover,
+.img-mems:focus  {
+ transform: scale(1.05);
 }
 
 .mems-container:hover .check-mark-btn {
