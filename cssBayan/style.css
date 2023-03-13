@@ -36,7 +36,7 @@ body {
     margin-top: -3%;
     padding: 1% 2%;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .hidden-block {
@@ -52,7 +52,6 @@ body {
     display: block;
     margin: 0 auto;
     transition: all 0.5s ease;
-    transition-property:transform;
 }
 
 .check-mark-btn {
@@ -74,7 +73,7 @@ body {
 
 .img-mems:hover,
 .img-mems:focus  {
- transform: scale(1.05);
+ border-radius: 10%;
 }
 
 .mems-container:hover .check-mark-btn {
