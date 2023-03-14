@@ -32,7 +32,6 @@ body {
 .label-mems {
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
     padding: 1% 2%;
     background-color: #86f6f6;
     cursor: pointer;
