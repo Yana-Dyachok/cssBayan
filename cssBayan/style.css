@@ -26,8 +26,7 @@ body {
 
 .mems-container {
     box-shadow:  0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
-    background-color: #86f6f6;
-    transition: all 0.3s ease;
+     transition: all 0.4s linear;
 }
 
 .label-mems {
@@ -35,15 +34,18 @@ body {
     justify-content: space-between;
     margin-top: -3%;
     padding: 1% 2%;
+    background-color: #86f6f6;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s linear;
 }
 
 .hidden-block {
-    display: none;
+   display: block;
+    max-height: 0;
+    opacity: 0;
     cursor: pointer;
     background-color: azure;
-    transition: all 0.5s ease;
+    transition: all 0.4s linear;
 }
 
 .img-mems {
@@ -51,7 +53,7 @@ body {
     max-width: 100%;
     display: block;
     margin: 0 auto;
-    transition: all 0.5s ease;
+    transition: all 0.4s linear;
 }
 
 .check-mark-btn {
@@ -85,7 +87,9 @@ body {
 }
 
 .mems-item:hover .hidden-block {
-    display: block;
+   opacity: 1;
+   max-height: 100%;
+   transition: all 0.3s linear;
 }
 
 /* Accordion */
@@ -102,8 +106,9 @@ body {
 }
 
 .title-input:checked+label+.hidden-block {
-    display: block;
-    transition: all 0.5s ease;
+    opacity: 1;
+    max-height: 100%;
+    transition: all 0.3s linear;
 }
 
 @media (max-width: 1200px) {
