@@ -32,7 +32,6 @@ body {
 .label-mems {
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
     padding: 1% 2%;
     background-color: #86f6f6;
     cursor: pointer;
@@ -156,3 +155,25 @@ body {
         height: 1rem;
     }
 }
+
+/* @media (hover: hover) {
+    
+    .mems-container:hover .check-mark-btn {
+        background: url("assets/icons8-галочка.svg") center/cover no-repeat;
+    }
+    .mems-item:hover .label-mems {
+        color: black;
+        background-color: #62f0f0;
+    }
+    
+    .hidden-block:hover {
+        background-color: #f5eef4;
+    }
+  }
+
+  @media (hover: none) {
+    .mems-item:hover .check-mark-btn {
+        background: url("assets/icons8-отмена.svg") center/cover no-repeat;
+    }
+  }
+ */
