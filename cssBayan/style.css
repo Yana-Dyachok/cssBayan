@@ -156,7 +156,7 @@ body {
     }
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
     
     .mems-container:hover .check-mark-btn {
         background: url("assets/icons8-галочка.svg") center/cover no-repeat;
@@ -176,3 +176,4 @@ body {
         background: url("assets/icons8-отмена.svg") center/cover no-repeat;
     }
   }
+ */
