@@ -9,7 +9,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -18,22 +17,31 @@ body {
     color: blueviolet;
 }
 
-.main-container {
-    max-width: 50%;
+/* .main-container {
+   max-width: 50%;
     max-height: 50%;
     margin: 0 auto;
+} */
+
+.title {
+display: flex;
+justify-content: center;
+margin: 0 auto;
 }
 
 .mems-container {
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto;
     box-shadow:  0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
-     transition: all 0.4s linear;
+    transition: all 0.4s linear;
 }
 
 .label-mems {
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
-    padding: 1% 2%;
+    padding:0rem 2rem;
+    margin-top: -2.69rem;
     background-color: #86f6f6;
     cursor: pointer;
     transition: all 0.4s linear;
@@ -116,7 +124,7 @@ body {
         font-size: 1.8rem;
     }
 
-    .main-container {
+    .mems-container {
         min-height: 70%;
         min-width: 70%;
         transform: translate(-2rem, 1rem);
@@ -128,10 +136,15 @@ body {
         font-size: 1.5rem;
     }
 
-    .main-container {
+    .mems-container {
         min-height: 80%;
         min-width: 80%;
         transform: translate(0);
+    }
+
+    .label-mems {
+        padding:0.5rem 1.5rem;
+        margin-top: -2rem;
     }
 
     .check-mark-btn {
@@ -140,15 +153,20 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     body {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
-    .main-container {
+    .mems-container {
         min-height: 95%;
         min-width: 95%;
         flex-wrap: wrap;
+    }
+
+    .label-mems {
+        padding:0.5rem 0.7rem;
+        margin-top: -1.3rem;
     }
 
     .check-mark-btn {
@@ -156,3 +174,25 @@ body {
         height: 1rem;
     }
 }
+
+/* @media (hover: hover) {
+    
+    .mems-container:hover .check-mark-btn {
+        background: url("assets/icons8-галочка.svg") center/cover no-repeat;
+    }
+    .mems-item:hover .label-mems {
+        color: black;
+        background-color: #62f0f0;
+    }
+    
+    .hidden-block:hover {
+        background-color: #f5eef4;
+    }
+  }
+
+  @media (hover: none) {
+    .mems-item:hover .check-mark-btn {
+        background: url("assets/icons8-отмена.svg") center/cover no-repeat;
+    }
+  }
+ */
