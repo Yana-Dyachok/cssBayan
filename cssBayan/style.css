@@ -175,6 +175,10 @@ margin: 0 auto;
         background: url("assets/icons8-галочка.svg") center/cover no-repeat;
     }
 
+    .mems-item:hover .check-mark-btn {
+    background: url("assets/icons8-отмена.svg") center/cover no-repeat;
+    }
+
     .mems-item:hover .label-mems {
         color: black;
         background-color: #62f0f0;
