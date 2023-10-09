@@ -1,5 +1,5 @@
-###[Task:]( https://github.com/DrDiman/CSS-Bayan-task) CSS Bayan
-You should create an accordion with HTML and CSS only.
+### [Task:]( https://github.com/DrDiman/CSS-Bayan-task) CSS Bayan
+#### You should create an accordion with HTML and CSS only.
 
 [Click to see my result](https://yana-dyachok.github.io/cssBayan/cssBayan/index.html)
 
